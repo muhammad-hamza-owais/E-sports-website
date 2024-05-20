@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    background-size:cover;
+}
+#header{
+    display: flex;
+}
+#second{
+    margin-top: 10px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.7);
+}
+#one{
+    margin-left: 130px;
+    margin-right: 220px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+#two, #three, #four{
+    margin-right: 70px;
+    cursor: pointer;
+
+}
+#five{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    margin-right: 100px;
+    cursor: pointer;
+}
+#six{
+    padding: 10px 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 20px;
+    cursor: pointer;
+}
+#main{
+    margin-top: 80px;
+    margin-left: 100px;
+    display: inline-block;
+}
+#seven{
+    color: #3881BA;
+}
+#eight{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    color: rgb(31, 31, 31);
+}
+#ten{
+    height: 45px;
+    width: 125px;
+    background-color: #f64d4a;
+    color: white;
+    border: 2px solid #f64d4a;
+    box-shadow: 20px black;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+#eleven{
+    background-image: url(3.png);
+    background-size: cover;
+    height: 425px;
+    width: 565px;
+    margin-top: -380px;
+    margin-left: 700px;
+}
+#ten:hover{
+    background: rgb(214, 214, 214);
+    color: black;
+    border: none;
+}
